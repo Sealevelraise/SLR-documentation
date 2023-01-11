@@ -1,4 +1,4 @@
-![Logo](https://gitlab.rz.htw-berlin.de/m3bui/SLR-documentation/-/blob/initial/images/slrLogo.jpg "Logo")
+![Logo](/images/slrLogo.jpg "Logo")
 # SLR Documentation
 
 
