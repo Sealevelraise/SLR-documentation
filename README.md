@@ -1,4 +1,6 @@
-![Logo](/images/slrLogo.jpg "Logo")
+<div style="width:60px ; height:60px">
+![Logo](/images/slrLogoRund.jpg "Logo")
+<div>
 # SLR Documentation
 
 
