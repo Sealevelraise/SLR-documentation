@@ -1,4 +1,4 @@
-<div style="width:60px ; height:60px ; align:center">
+<div style="width:60px ; height:60px ; display:block ; margin-left:auto ; margin-right:auto">
 ![Logo](/images/slrLogoRund.jpg "Logo")
 <div>
 
