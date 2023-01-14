@@ -1,13 +1,13 @@
-<div style="width:60px ; height:60px; margin:auto">
+<div style="width:60px ; height:60px; align:center">
 ![Logo](/images/slrLogoRund.jpg "Logo")
 <div>
 
 * * *
 *   [Über das Projekt](##Über_das_Projekt)
-*   [Über uns](#Über_uns)
+*   [Über uns](##Über_uns)
 *   [Repositories](##Repositories)
 *   [Produkt Dokumentation](##Produkt_Dokumentation)
-*   [Lizenzierung](##Lizenzierung)
+*   [Lizenzierung](#lizenzierung)
 *   [Projekt Status](##Projekt_Status)
 
 * * *
