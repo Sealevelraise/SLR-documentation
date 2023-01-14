@@ -2,6 +2,10 @@
 ![Logo](/images/slrLogoRund.jpg "Logo")
 <div>
 
+<p align="center">
+ <a href="https://gitlab.rz.htw-berlin.de/m3bui/SLR-documentation"><img src="https://gitlab.rz.htw-berlin.de/m3bui/SLR-documentation/-/blob/initial/images/slrLogoRund.jpg" width="400"></a>
+</p>
+
 * * *
 *   [Über das Projekt](#über_das_Projekt)
 *   [Über uns](#über_uns)
