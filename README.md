@@ -1,19 +1,18 @@
-<div style="width:60px ; height:60px ; display:block ; margin-left:auto ; margin-right:auto">
-![Logo](/images/slrLogoRund.jpg "Logo")
-<div>
-
+<p align="center">
+ <img src="./images/slrLogoRund.jpg" width="250">
+</p>
 
 * * *
-*   [Über das Projekt](#über_das_Projekt)
-*   [Über uns](#über_uns)
+*   [Über das Projekt](#über-das-projekt)
+*   [Über uns](#über-uns)
 *   [Repositories](#repositories)
-*   [Produkt Dokumentation](#produkt_Dokumentation)
+*   [Produkt Dokumentation](#produkt-dokumentation)
 *   [Lizenzierung](#lizenzierung)
-*   [Projekt Status](#projekt_Status)
+*   [Projekt Status](#projekt-status)
 
 * * *
 
-# SeaLevelRaise Documentation
+# SeaLevelRaise Dokumentation
 
 
 
@@ -35,33 +34,36 @@ Durch Sea Level Raise wird dieses Problem angegangen, das sind unsere drei Grund
 
 ## Über uns
 * * *
-Wir sind die TeilnehmerInnen des Moduls _M3 Methoden und Werkzeuge in BUI-Projekten_ im WiSe 2022/2023. Der Auftrag zum Projekt wurde von Prof. Dr.-Ing. Katarina Adam (Katarina.Adam@HTW-Berlin.de) gegeben. Als Betreuer stand uns Prof. Dr. Frank Burghardt als Hochschullehrer des Moduls zur Verfügung.
+Wir sind das SeaLevelRaise-Projektteam und TeilnehmerInnen des Moduls _M3 Methoden und Werkzeuge in BUI-Projekten_ im WiSe 2022/2023. Der Auftrag zum Projekt wurde von Prof. Dr.-Ing. Katarina Adam (Katarina.Adam@HTW-Berlin.de) gegeben. Als Betreuer stand uns Prof. Dr. Frank Burghardt als Hochschullehrer des Moduls zur Verfügung.
+
+
+__Das SeaLevelRaise-Projektteam:__
 
 ![Organigramm](/images/Organigramm.jpg "Organigramm")
 
 
 ## Repositories
 * * *
-| Repository                   | Description                                                                                 |
+| Repository                   | Beschreibung                                                                                 |
 | ---------------------------- | ------------------------------------------------------------------------------------------- |
-| [SLR](https://gitlab.rz.htw-berlin.de/m3bui/SLR)            |Folgenden Inhalt gibt es in diesem Repository: nuxt: "Frontend", Eine Webaplikation, mit dem Framework Vue und dem Metaframework nuxt entwickelt; truffle-project: "Backend", Smart Contracts, welche auf eine Etherium-Blockchain migriert werden können. Für das Ausführen der beiden Projektteile gibt es jeweils eine Anleitung im Unterordner.                         |
-| [SLR Documentation](https://gitlab.rz.htw-berlin.de/m3bui/SLR-documentation)                |                         |
+| [SLR](https://gitlab.rz.htw-berlin.de/m3bui/SLR)            | - __nuxt:__ "Frontend", Eine Webaplikation, mit dem Framework Vue und dem Metaframework nuxt entwickelt<br>- __truffle-project:__ "Backend", Smart Contracts, welche auf eine Etherium-Blockchain migriert werden können. Für das Ausführen der beiden Projektteile gibt es jeweils eine Anleitung im Unterordner.                         |
+| [SLR Documentation](https://gitlab.rz.htw-berlin.de/m3bui/SLR-documentation)                | Projektübersicht und allgemeine Dokumentation                        |
 
 
 ## Produkt Dokumentation
 * * *
 
-### Requirements
+### Anforderungen
 
 - [User Journey](user-journey.md)
 
-### Technical Documentation
+### Technische Dokumentation
 
 - [Architektur]()
 - [SmartContract Logik](contract-logic.md)
 - [UX Design Guide](UX-design.md)
+- [Install Development](https://gitlab.rz.htw-berlin.de/m3bui/SLR/-/blob/main/README.md)
 
-*add Install*
 
 ## Lizenzierung
 * * *
@@ -73,6 +75,8 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+[Erklärung](SLRLizenz.pdf)
 
 ## Projekt Status
 * * *
