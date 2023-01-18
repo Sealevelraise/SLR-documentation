@@ -6,7 +6,7 @@
 *   [Über das Projekt](#über-das-projekt)
 *   [Über uns](#über-uns)
 *   [Repositories](#repositories)
-*   [Produkt Dokumentation](#produkt-dokumentation)
+*   [Unsere Dokumentation](#unsere-dokumentation)
 *   [Lizenzierung](#lizenzierung)
 *   [Projekt Status](#projekt-status)
 
@@ -50,7 +50,7 @@ __Das SeaLevelRaise-Projektteam:__
 | [SLR Documentation](https://gitlab.rz.htw-berlin.de/m3bui/SLR-documentation)                | Projektübersicht und allgemeine Dokumentation                        |
 
 
-## Produkt Dokumentation
+## Unsere Dokumentation
 * * *
 
 ### Anforderungen
@@ -59,10 +59,10 @@ __Das SeaLevelRaise-Projektteam:__
 
 ### Technische Dokumentation
 
-- [Architektur]()
+- [Architektur](architecture.md)
 - [SmartContract Logik](contract-logic.md)
 - [UX Design Guide](UX-design.md)
-- [Install Development](https://gitlab.rz.htw-berlin.de/m3bui/SLR/-/blob/main/README.md)
+- [Install Development](https://gitlab.rz.htw-berlin.de/m3bui/SLR/-/blob/main/README.md#projekt-set-up)
 
 
 ## Lizenzierung
@@ -76,9 +76,9 @@ The above copyright notice and this permission notice shall be included in all c
 
 THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-[Erklärung](SLRLizenz.pdf)
+[Lizenzerklärung](SLRLizenz.pdf)
 
 ## Projekt Status
 * * *
 
-If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
+*If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.*

@@ -1,18 +1,15 @@
-/\*<!\[CDATA\[\*/ div.rbtoc1673610938428 {padding: 0px;} div.rbtoc1673610938428 ul {list-style: disc;margin-left: 0px;} div.rbtoc1673610938428 li {margin-left: 0px;padding-left: 0px;} /\*\]\]>\*/
+# Inhalt
 
-*   [User Profiles](#userjourney-UserProfiles)
-    *   [Ute](#userjourney-Ute)
-    *   [Peter](#userjourney-Peter)
-    *   [DAO](#userjourney-DAO)
-*   [Epics](#userjourney-Epics)
-*   [User Stories](#userjourney-UserStories)
-*   [Offene Fragen](#userjourney-OffeneFragen)
-*   [Außerhalb des Projektumfangs](#userjourney-AußerhalbdesProjektumfangs)
+*   [User Profiles](#user-profiles)
+*   [Epics](#epics)
+*   [User Stories](#user-stories)
+*   [Offene Fragen](#offene-fragen)
+*   [Außerhalb des Projektumfangs](#außerhalb-des-projektumfangs)
 
 * * *
 
-
 ## User Profiles
+* * *
 
 #### Ute
 
@@ -27,10 +24,10 @@ Alle Personen, die spenden möchten und für Projekte abstimmen wollen.
 Die DAO besteht aus allen Spendern (Peters) und ist eine dezentrale autonome Organisation, die kontrolliert welche Projekte zur Abstimmung kommen, wie die Abstimmung abläuft und die Spendengelder verteilt werden.
 
 ## Epics
+* * *
 
-|     |     |     |
-| --- | --- | --- |
 | **#** | **Epic** | **Beschreibung** |
+| --- | --- | --- |
 | 1   | Website besuchen | Die Website hat eine Landing Page und es kann eine Spenderrolle ausgewählt werden. |
 | 2   | Spenden | Alle Prozesse, um eine Spende abgeben zu können. |
 | 3   | Spendenquittung | Das Ausstellen und Verschicken der Spendenquittung. |
@@ -41,10 +38,10 @@ Die DAO besteht aus allen Spendern (Peters) und ist eine dezentrale autonome Org
 | 8   | Projektaccount anlegen | Alle Prozesse zur Erstellung eines eigenen Projektaccounts für den Empfang von Spendengeldern. |
 
 ## User Stories
+* * *
 
-|     |     |     |     |
-| --- | --- | --- | --- |
 | **#** | **User Story Titel** | **User Story** | **Acceptance Criteria** |
+| --- | --- | --- | --- |
 | **1.01** | Startseite (Spenden/Projekt anlegen) | Als Peter oder Ute möchte ich eine Startseite angezeigt bekommen, um weiter fortzufahren. | 1.  Die Seite ist aufrufbar.<br>    <br>2.  Beim Aufrufen der Seite soll das Wählen der Rolle offensichtlich einsehbar sein. |
 | **1.02** | Spenderrolle auswählen | Als Peter oder Ute möchte ich meine Rolle auswählen können, um zur entsprechenden Seite weitergeleitet zu werden. | 1.  Die Rollen sollen offensichtlich mit den beiden Funktionen “Spender sein” und “Spender suchen” verbunden sein.<br>    <br>2.  Nach Klick auf einen Button werde ich auf die jeweilige Seite weitergeleitet. |
 | **2.01** | Wallet anlegen | Als Peter möchte ich die Schritte erklärt bekommen, wie ich mein Wallet einrichten und hinterlegen kann. | to be defined |
@@ -76,11 +73,11 @@ Die DAO besteht aus allen Spendern (Peters) und ist eine dezentrale autonome Org
 | **8.03** | Wallet hinterlegen | Als Ute möchte ich ein Wallet hinterlegen, um Spenden erhalten zu können. | 1.  Es kann ein Wallet hinterlegt werden, um Spendengelder aus der Projektadresse auf die private Wallet zu übertragen. |
 | **8.04** | Darstellung des eigenen Spendenimpacts | Als Ute möchte ich meinen eigenen Spendenimpact darstellen, um transparent für Stimmen zu werben. | 1.  Beschreibungstext und Fotos können zu einem Projekt hinzugefügt, entfernt oder geändert werden.<br>    <br>2.  Mit Klick auf “Speichern” werden die Änderungen gespeichert. |
 
-## ![(Frage)](https://htw-berlin-bui.atlassian.net/wiki/s/-170833927/6452/65c4fc7c3915c05205a2c76645fe70e0e6736d8a/_/images/icons/emoticons/help_16.png) Offene Fragen
+## Offene Fragen
+* * *
 
-|     |     |     |
+| **Frage** | **Antwort** | **Antwortdatum** |
 | --- | --- | --- |
-| **Frage** | **Antwort** | **Datum der Antwort** |
 | Was passiert mit den Projekten, die nicht gewonnen haben? Werden Sie automatisch in die nächste Spendenperiode wieder aufgenommen? |     |     |
 | Darf ich nur in der Spendenperiode abstimmen, in der ich auch gespendet habe? |     |     |
 | Muss ich, um in einer Spendenperiode abzustimmen, auch in dieser gespendet haben? Oder habe ich mit einer einmaligen Spende in jeder Spendenperiode das Recht abzustimmen (unabhängig ob ich gespendet habe = Token sind ewig gültig)? |     |     |
@@ -90,6 +87,7 @@ Die DAO besteht aus allen Spendern (Peters) und ist eine dezentrale autonome Org
 | Wie läuft das mit Private Key des Projekts (Story 8.01)? |     |     |
 
 ## Außerhalb des Projektumfangs
+* * *
 
 *   Bezahlung mit Kryptowährung in Small States siehe [Bezahlung mit Kryptowährung in Small States](https://htw-berlin-bui.atlassian.net/wiki/spaces/SEAL/pages/5931013)
     

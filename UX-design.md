@@ -1,47 +1,45 @@
-/\*<!\[CDATA\[\*/ div.rbtoc1673689933787 {padding: 0px;} div.rbtoc1673689933787 ul {list-style: disc;margin-left: 0px;} div.rbtoc1673689933787 li {margin-left: 0px;padding-left: 0px;} /\*\]\]>\*/
+# Inhalt
 
-*   [Prototypes](#id-(UX)userexperiencedesign-Prototypes)
-*   [Frameworks](#id-(UX)userexperiencedesign-Frameworks)
-*   [UX style guide](#id-(UX)userexperiencedesign-UXstyleguide)
-    *   [color palette](#id-(UX)userexperiencedesign-colorpalette)
-    *   [typography](#id-(UX)userexperiencedesign-typography)
-    *   [iconography](#id-(UX)userexperiencedesign-iconography)
-    *   [UI elements](#id-(UX)userexperiencedesign-UIelements)
-
-* * *
-
-## Prototypes
+*   [Prototyp](#prototyp)
+*   [Frameworks](#frameworks)
+*   [UX-Style](#ux-style)
+    *   [Farbpalette](#farbpalette)
+    *   [Typographie](#typographie)
+    *   [Icons](#icons)
+    *   [UI Elemente](#ui-elemente)
 
 * * *
+
+## Prototyp
+* * *
+
+Es wurde ein [Figma-Prototyp](https://www.figma.com/file/T6ZFPtOimgmBoVVZa3ga9P/SLR-Website?node-id=0%3A1) entworfen, an dem sich während der Frontend-Entwicklung orientiert wurde. 
+
 
 ## Frameworks
-
 * * *
 
-[https://vuejs.org/](https://vuejs.org/)
+Als Framework für die Frontend-Entwicklung wurde [vue.js](https://vuejs.org/) verwendet. Als Erweiterung wurde das Metaframework [nuxt](https://nuxtjs.org/) verwendet.
 
-[https://nuxtjs.org/](https://nuxtjs.org/)
-
-## UX style guide
-
+## UX-Style
 * * *
 
-### color palette
+### Farbpalette
 
-Blau - 0051A0
-Sand - FDF5E0
-Rot - C22828
+<p style="background-color:blue">Blau - 0051A0</p>
+<p style="background-color:beige;color:black">Sand - FDF5E0</p>
+<p style="background-color:red;">Rot - C22828</p>
 
-### typography
+### Typographie
 
-*   font: [https://fonts.google.com/specimen/Roboto+Slab](https://fonts.google.com/specimen/Roboto+Slab)
+Als Font wurde [Roboto Slab](https://fonts.google.com/specimen/Roboto+Slab) verwendet. 
     
 
 
-### iconography
+### Icons
 
-no icons
+*to be defined*
 
-### UI elements
+### UI Elemente
 
-all on click elements hover
+*to be defined*

@@ -1,6 +1,4 @@
-To-Do: web3.js Methoden ergänzen
-
-/\*<!\[CDATA\[\*/ div.rbtoc1673690228505 {padding: 0px;} div.rbtoc1673690228505 ul {list-style: disc;margin-left: 0px;} div.rbtoc1673690228505 li {margin-left: 0px;padding-left: 0px;} /\*\]\]>\*/
+# Inhalt
 
 *   [Contracts](#Contractlogic-Contracts)
     *   [Vote](#Contractlogic-Vote)
@@ -11,6 +9,7 @@ To-Do: web3.js Methoden ergänzen
 * * *
 
 ## Contracts
+* * *
 
 All contracts are written in solidity (.sol).
 
@@ -43,6 +42,7 @@ With this contract, you can add new projects in small states to SeaLevelRaise or
 The new project is mapped to the wallet of the person which added the project. The number of projects a person already added is also mapped, so that no one can add more than one project.
 
 ## Methods used from the web3.js library for Ethereum
+* * *
 
 connectWallet - this uses a “call” method, which does not wirte to the blockchian. No gas is required.
 
