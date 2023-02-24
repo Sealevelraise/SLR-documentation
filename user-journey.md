@@ -1,95 +1,96 @@
-# Inhalt
+# Content
 
 *   [User Profiles](#user-profiles)
 *   [Epics](#epics)
 *   [User Stories](#user-stories)
-*   [Offene Fragen](#offene-fragen)
-*   [Außerhalb des Projektumfangs](#außerhalb-des-projektumfangs)
+*   [Open Questions](#open-questions)
+*   [Out-of-projectscope](#out-of-projectscope)
 
 * * *
-
+Back to [README](./README.md)
+* * *
 ## User Profiles
 * * *
 
 #### Ute
 
-Alle Personen, die Spenden für ein Projekt erhalten möchten und dafür ein Projekt registrieren, verifizieren und zur Abstimmung aufstellen wollen.
+All persons who want to receive donations for a project and register, verify and put up a project for voting for it.
 
 #### Peter
 
-Alle Personen, die spenden möchten und für Projekte abstimmen wollen.
+All people who want to donate and vote for projects.
 
 #### DAO
 
-Die DAO besteht aus allen Spendern (Peters) und ist eine dezentrale autonome Organisation, die kontrolliert welche Projekte zur Abstimmung kommen, wie die Abstimmung abläuft und die Spendengelder verteilt werden.
+The DAO consists of all donors (Peters) and is a decentralized autonomous organization that controls which projects come to the vote, how the voting is done and how the donations are distributed.
 
 ## Epics
 * * *
 
-| **#** | **Epic** | **Beschreibung** |
+| **#** | **Epic** | **Description** |
 | --- | --- | --- |
-| 1   | Website besuchen | Die Website hat eine Landing Page und es kann eine Spenderrolle ausgewählt werden. |
-| 2   | Spenden | Alle Prozesse, um eine Spende abgeben zu können. |
-| 3   | Spendenquittung | Das Ausstellen und Verschicken der Spendenquittung. |
-| 4   | Voten | Alle Prozesse, um für ein Projekt abstimmen zu können. |
-| 5   | Projektkür | Alle Prozesse, um die Spendensumme entsprechend Abstimmung auszugeben. |
-| 6   | Projekt einreichen | Small-State-Check und Eingabe der Projektinformationen. |
-| 7   | Projekt überprüfen und anlegen | Alle Prozesse, um ein Projekt in den Abstimmungsprozess aufzunehmen. |
-| 8   | Projektaccount anlegen | Alle Prozesse zur Erstellung eines eigenen Projektaccounts für den Empfang von Spendengeldern. |
+|1 | Visit website | The website has a landing page and a donor role can be selected. |
+| 2 | Donate | All processes to be able to make a donation. |
+| 3 | Donation Receipt | The process of issuing and sending the donation receipt. |
+| 4 | Voting | All processes to be able to vote for a project. |
+| 5 | Project Vote | All processes to spend the donation amount according to the vote. |
+| 6 | Submit Project | Small-State-Check and enter project information. |
+| 7 | Review and Create Project | All processes to add a project to the reconciliation process. |
+| 8 | Create Project Account | All processes to create an own project account for receiving donations. |
 
 ## User Stories
 * * *
 
 | **#** | **User Story Titel** | **User Story** | **Acceptance Criteria** |
 | --- | --- | --- | --- |
-| **1.01** | Startseite (Spenden/Projekt anlegen) | Als Peter oder Ute möchte ich eine Startseite angezeigt bekommen, um weiter fortzufahren. | 1.  Die Seite ist aufrufbar.<br>    <br>2.  Beim Aufrufen der Seite soll das Wählen der Rolle offensichtlich einsehbar sein. |
-| **1.02** | Spenderrolle auswählen | Als Peter oder Ute möchte ich meine Rolle auswählen können, um zur entsprechenden Seite weitergeleitet zu werden. | 1.  Die Rollen sollen offensichtlich mit den beiden Funktionen “Spender sein” und “Spender suchen” verbunden sein.<br>    <br>2.  Nach Klick auf einen Button werde ich auf die jeweilige Seite weitergeleitet. |
-| **2.01** | Wallet anlegen | Als Peter möchte ich die Schritte erklärt bekommen, wie ich mein Wallet einrichten und hinterlegen kann. | to be defined |
-| **2.02** | Spendenbutton klicken | Als Peter möchte ich meine Spendendaten eingeben und auf einen Button klicken, um meine Spende abzugeben. | 1.  Es ist ein Formular zur Eingabe aller nötigen Informationen vorhanden.<br>    <br>2.  Es ist ein Button zum Absenden der Informationen vorhanden.<br>    <br>3.  Wenn der Button gedrückt wird, wird auf der Seite eine Erfolgsmeldung für meine Spende angezeigt. |
-| **2.03** | Geld transferieren | Als Peter möchte ich, dass mein Geld transferiert wird und ich eine Meldung bekomme, um meine Spende zu absolvieren. | 1.  Der zu spendende Betrag wird vom Spender-Wallet abgebucht und auf den Smart Contract gebucht.<br>    <br>2.  Es erscheint eine Meldung, über die erfolgreiche Transaktion. |
-| **2.04** | Mitglied der DAO werden | Als Peter möchte ich Mitglied der DAO werden, um an Abstimmungen teilhaben zu können. | 1.  Über anstehende Abstimmungen in der DAO wird informiert.<br>    <br>2.  Es ist möglich, in der DAO abzustimmen. |
-| **2.05** | Token erhalten | Als Peter möchte ich einen Token erhalten, um meine Stimme abgeben zu können. | 1.  Nach erfolgreicher Spende wird ein Token gutgeschrieben.<br>    <br>2.  Der Token ermöglicht die Abstimmung in der DAO. |
-| **3.01** | Spendenquittung ausstellen | Als DAO möchte ich eine Spendenquittung ausstellen, um die Spende steuerrechtlich anzuerkennen und Spender zu motivieren. | 1.  Es wird eine Spendenquittung erstellt. |
-| **3.02** | Spendenquittung verschicken | Als DAO möchte ich eine Spendenquittung verschicken, um sie Peter zur Verfügung zu stellen. | 1.  Die Spendenquittung wird an Spender verschickt. |
-| **4.01** | Projektübersicht aller aktiven Projekte | Als Peter möchte ich alle Projekte angezeigt bekommen, um ein Projekt für meine Stimme auswählen zu können. | 1.  Nach der Transaktion der Spende werden alle verfügbaren Projekte mit Projekttitel, Bild, Beschreibungstext und Spendenziel angezeigt. |
-| **4.02** | Stimmenabgabe | Als Peter möchte ich ein Projekt auswählen können, um meine Stimme für ein Projekt abzugeben. | 1.  Mit Klick auf “Projekt auswählen” öffnet sich ein Dropdown mit allen Projekten.<br>    <br>2.  Mit Auswahl eines Projekts schließt sich das Dropdown.<br>    <br>3.  Mit Klick auf “Absenden” erhalte ich eine Benachrichtigung über abgegebene Stimmen.<br>    <br>4.  Beim ersten Klick auf “Absenden” erscheint eine Melung mit dem Projektnamen, welches ausgewählt wurde und der Abfrage: "Sind Sie sicher?"    |
-| **4.03** | Spenden ohne Voten | Als Peter möchte ich ein Häkchen setzen können, um mich beim Voting zu enthalten bzw. der DAO zu vertrauen. | 1.  Neben dem Dropdown-Menü gibt es ein Häckchen “ohne Stimme spenden”.<br>    <br>2.  Nach Klick auf “Absenden” mit ausgewähltem Häckchen erhalte ich eine Benachrichtigung über abgegebene Stimmen. |
-| **4.04** | Stimmenübersicht anschauen | Als Peter möchte ich eine Übersicht der bisherigen Stimmen pro Projekt angezeigt bekommen, um zu wissen ob mein favorisiertes Projekt gewinnen könnte. | to be defined |
-| **5.01** | Vierteljährliche Benachrichtigung kommt rein | Als Peter möchte ich eine Benachrichtigung erhalten, wenn eine neue vierteljährliche Spendenperiode beginnt, um zu sehen welches Projekt gewonnen hat und zu wissen, dass eine neue Periode mit neuen Projekten beginnt. | 1.  Mit Beginn der neuen Spendenperiode erhalte ich eine Benachrichtigung mit allen notwendigen Informationen darüber. |
-| **5.02** | Projekt mit den meisten Stimmen auswählen | Als Peter möchte ich wissen nach welchem Prinzip das Gewinner-Projekt bestimmt wird, um meine Stimme dementsprechend abgeben zu können. | 1.  Nach Ende der Abstimmungsperiode wird das Projekt mit den meisten Stimmen in der abgelaufenen Spendenperiode per “Winner takes it all” als Gewinner bestimmt. |
-| **5.03** | Geld an Projekt transferieren | Als DAO möchte ich das gespendete Geld transferieren, wenn das Gewinner-Projekt gewählt wurde, um die Spendengelder auszuzahlen. | 1.  Der Betrag auf dem Smart Contract zum Ende der Spendenperiode wird auf das Wallet der Person mit dem Projekt mit den meisten Stimmen ausgezahlt. |
-| **5.04** | Erfolgreiches Projekt announcen | Als Peter oder Ute möchte ich eine Benachrichtigung erhalten, welches Projekt die Abstimmung gewonnen hat. | 1.  Zum Ende der Spendenperiode erhalten alle Teilnehmer (egal welcher Rolle) eine Benachrichtigung über das Abstimmungsergebnis. |
-| **5.05** | Neues Spenden-Vierteljahr starten | Als DAO möchte ich nach Ende einer Spendenperiode eine neue Spendenperiode mit den bis dahin angemeldeten Projekten starten, um neue Spendengelder zu sammeln. | 1.  Nach Ende einer Spendenperiode wird eine neue Spendenperiode gestartet.<br>    <br>2.  Es werden alle bis dahin eingetragenen Projekte |
-| **6.01** | Smallstateliste | Als Ute möchte ich aus einer Liste aller Smallstates meinen Smallstate auswählen, um ein Projekt anlegen zu können. | 1.  Nach Wählen der Rolle “Spender suchen” wird zur Wahl des Smallstates aufgefordert.<br>    <br>2.  Mit Klick auf “Smallstate auswählen” wird eine durchsuchbare Dropdown-Liste mit allen Smallstates angezeigt.<br>    <br>3.  Ein Smallstate wird ausgewählt und nach Klick auf “Weiter” werde ich auf die Seite “Projektinformationen eingeben” weitergeleitet. |
-| **6.02** | Eingabe der Projektinformationen | Als Ute möchte ich meine Projektinformationen eingeben, um ein Projekt anlegen zu können. | 1.  Es wird ein Formular mit Eingabefeldern zu allen nötigen Informationen angezeigt.<br>    <br>2.  Wenn nicht alle Felder gefüllt sind, wird bei Klick auf “Ok” zur Befüllung aller Felder aufgefordert.<br>    <br>3.  Nach Klick auf “Ok” mit allen befüllten Feldern, werden Informationen an Backend übertragen und über das weitere Vorgehen informiert. |
-| **7.01** | Projekt registrieren | Als DAO möchte ich ein Projekt mit seinen Informationen registrieren, um es verifizieren zu können. | 1.  Es wird ein neues Projekt angelegt und es werden alle Informationen gespeichert. |
-| **7.02** | Ute verifizieren | Als DAO möchte ich Ute verifizieren können, um Missbrauch zu vermeiden. | to be defined |
-| **7.03** | Projekt verifizieren | Als DAO möchte ich ein neues Projekt verifizieren können, um Missbrauch zu vermeiden. | to be defined |
-| **7.04** | Abstimmung über Annahme eines Projekts | Als DAO möchte ich über die Annahme eines Projekts abstimmen, um dessen Eignung sicherzustellen. | 1.  Es wird vor Start einer neuen Spendenperiode darüber abgestimmt welche Projekte in die Abstimmung mit aufgenommen werden. |
-| **7.05** | Projekt-Keys (Adresse) generieren | Als DAO möchte ich für ein neues Projekt einen Key bzw. eine Adresse generieren, um Stimmensammlung und Spendentransfer zu ermöglichen. | 1.  Mit Erstellung eines neuen Projekts wird ein Public Key als Adresse für Stimmensammlung und Spendentransfer generiert. |
-| **7.06** | Nachricht an Ute senden | Als DAO möchte ich eine Nachricht an Ute senden, um ihr mitzuteilen, ob und mit welcher Adresse ihr Projekt für die nächste Abstimmung hinterlegt wurde. | 1.  Die erstellende Person wird laufend über den Annahme-Prozess ihres Projekts informiert. |
-| **8.01** | Projekt-Account annehmen | Als Ute möchte ich einen Projekt-Account annehmen, um diesen verwalten zu können. | 1.  Der Projekt-Ersteller hat die Möglichkeit, den Projekt-Account mit seinem eigenen Account zu verknüpfen.<br>    <br>2. to be defined  |
-| **8.02** | Wallet anlegen | Als Ute möchte ich die Schritte erklärt bekommen, wie ich mein Wallet einrichten und hinterlegen kann. | to be defined |
-| **8.03** | Wallet hinterlegen | Als Ute möchte ich ein Wallet hinterlegen, um Spenden erhalten zu können. | 1.  Es kann ein Wallet hinterlegt werden, um Spendengelder aus der Projektadresse auf die private Wallet zu übertragen. |
-| **8.04** | Darstellung des eigenen Spendenimpacts | Als Ute möchte ich meinen eigenen Spendenimpact darstellen, um transparent für Stimmen zu werben. | 1.  Beschreibungstext und Fotos können zu einem Projekt hinzugefügt, entfernt oder geändert werden.<br>    <br>2.  Mit Klick auf “Speichern” werden die Änderungen gespeichert. |
+| **1.01** | Home (Donate/Create Project) | As Peter or Ute, I would like to be shown a start page to continue. | 1.  The page is accessible.<br>    <br>2.  When accessing the page, the selection of the role should be obviously visible. |
+| **1.02** | Select donor role | As Peter or Ute, I would like to be able to select my role to be redirected to the appropriate page. | 1.  The roles should obviously be connected to the two functions "Be a donor" and "Find a donor".<br> <br>2. After clicking on a button, I am redirected to the respective page. |
+| **2.01** | Create Wallet | As Peter I would like to have the steps explained how to set up and deposit my wallet. | to be defined |
+| **2.02** | Click Donate Button | As Peter, I would like to enter my donation information and click a button to make my donation. | 1.  There is a form for entering all the necessary information.<br>    <br>2.  There is a button to submit the information.<br>    <br>3.  When the button is pressed, a success message for my donation is displayed on the page. |
+| **2.03** | Transfer money | As a Peter, I want my money to be transferred and I get a notification to complete my donation. | 1.  The amount to be donated is debited from the donor wallet and posted to the smart contract.<br>    <br>2.  A message about the successful transaction will appear. |
+| **2.04** | Become a member of the DAO | As Peter, I would like to become a member of the DAO in order to participate in votes. | 1. will be informed about upcoming votes in the DAO.<br>    <br>2. it is possible to vote in the DAO. |
+| **2.05** | Receive token | As Peter, I would like to receive a token to cast my vote. | 1. a token is credited after successful donation.<br> <br>2. the token enables voting in the DAO. |
+| **3.01** | Issue donation receipt | As a DAO, I would like to issue a donation receipt to recognize the donation for tax purposes and to motivate donors. | 1. A donation receipt will be issued. |
+| **3.02** | Send donation receipt | As a DAO, I would like to send a donation receipt to provide to Peter. | 1. The donation receipt will be sent to donors. |
+| **4.01** | Project overview of all active projects | As Peter I would like to have all projects displayed to be able to select a project for my vote. | 1. After the transaction of the donation all available projects are displayed with project title, picture, description text and donation goal. |
+| **4.02** | Voting | As Peter, I would like to be able to select a project to cast my vote for. | 1. clicking on "Select project" opens a dropdown with all projects.<br>    <br>2.  By selecting a project, the dropdown closes.<br> <br>3. By clicking on "Submit", I receive a notification of votes cast.<br>    <br>4.  The first time you click "Submit", a message will appear with the project name that was selected and the query: "Are you sure?"    |
+| **4.03** | Donate without voting | As Peter, I would like to be able to put a check mark to abstain from voting or to trust the DAO. | 1. Next to the dropdown menu there is a check mark "donate without voting".<br>    <br>2. after clicking on "Submit" with selected check mark I will receive a notification about cast votes. |
+| **4.04** | View votes overview | As Peter I would like to see an overview of the votes per project so far to know if my favorite project could win. | to be defined |
+| **5.01** | Quarterly notification comes in | As Peter I would like to receive a notification when a new quarterly donation period starts, to see which project has won and to know that a new period with new projects starts. | 1. With the beginning of the new donation period I will receive a notification with all the necessary information about it. |
+| **5.02** | Select project with the most votes | As Peter I would like to know according to which principle the winning project will be determined in order to be able to cast my vote accordingly. | After the end of the voting period, the project with the most votes in the past donation period will be determined as the winner by "Winner takes it all". |
+| **5.03** | Transfer money to project | As a DAO, I would like to transfer the donated money when the winning project is chosen to pay out the donations. | 1. The amount on the Smart Contract at the end of the donation period will be paid to the wallet of the person with the project with the most votes. |
+| **5.04** | Announce successful project | As Peter or Ute I would like to receive a notification which project has won the vote. | 1. At the end of the donation period all participants (no matter which role) will receive a notification about the voting result. |
+| **5.05** | Start new donation quarter | As a DAO, I would like to start a new donation period after the end of a donation period with the projects registered until then to collect new donations. | 1. After the end of a donation period, a new donation period is started.<br>    <br>2.  All projects registered until then will be part of the new period |
+| **6.01** | Smallstate list | As Ute, I would like to select my smallstate from a list of all smallstates in order to be able to create a project. | After selecting the role "Search donors", you will be asked to select the smallstate.<br>    <br>2.  Clicking on "Select Smallstate" will display a searchable drop down list of all smallstates.<br> <br>3. A smallstate is selected and after clicking on "Next" I am taken to the "Enter Project Information" page. |
+| **6.02** | Entering the project information | As Ute I want to enter my project information to be able to create a project. | 1. A form with input fields for all necessary information is displayed.<br>    <br>2.  If not all fields are filled, clicking on "Ok" will prompt for filling all fields.<br> <br>3. After clicking on "Ok" with all fields filled, information will be transferred to backend and informed about the further procedure. |
+| **7.01** | Register project | As DAO I want to register a project with its information to be able to verify it. | 1. a new project will be created and all information will be saved. |
+| **7.02** | Verify Ute | As a DAO, I would like to be able to verify Ute to avoid abuse. | to be defined |
+| **7.03** | Verify project | As DAO I want to be able to verify a new project to avoid misuse. | to be defined |
+| **7.04** | Voting on acceptance of a project | As a DAO, I would like to vote on the acceptance of a project to ensure its eligibility. | 1. There will be a vote on which projects to include in the ballot before the start of a new donation period. |
+| **7.05** | Generate project keys (address) | As a DAO I would like to generate a key or an address for a new project to enable vote collection and donation transfer. | With the creation of a new project a public key is generated as address for vote collection and donation transfer. |
+| **7.06** | Send message to Ute | As DAO I would like to send a message to Ute to let her know if and with which address her project has been deposited for the next voting. | 1. The creating person is continuously informed about the acceptance process of her project. |
+| **8.01** | Accept project account | As Ute, I would like to accept a project account in order to be able to manage it. | 1. the project creator has the possibility to link the project account with his own account.<br>    <br>2. to be defined  |
+| **8.02** | Create Wallet | As Ute I would like to have the steps explained how to set up and deposit my wallet. | to be defined |
+| **8.03** | Deposit Wallet | As Ute I would like to deposit a wallet to receive donations. | 1. a wallet can be deposited to transfer donations from the project address to the private wallet. |
+| **8.04** | Presentation of the own donation impact | As Ute, I would like to present my own donation impact in order to transparently solicit votes. | 1. description text and photos can be added, removed or changed to a project.<br> <br>2. click on "Save" to save the changes. |
 
-## Offene Fragen
+## Open Questions
 * * *
 
-| **Frage** | **Antwort** | **Antwortdatum** |
+| **Question** | **Answer** | **Date of Answer** |
 | --- | --- | --- |
-| Was passiert mit den Projekten, die nicht gewonnen haben? Werden Sie automatisch in die nächste Spendenperiode wieder aufgenommen? |     |     |
-| Darf ich nur in der Spendenperiode abstimmen, in der ich auch gespendet habe? |     |     |
-| Muss ich, um in einer Spendenperiode abzustimmen, auch in dieser gespendet haben? Oder habe ich mit einer einmaligen Spende in jeder Spendenperiode das Recht abzustimmen (unabhängig ob ich gespendet habe = Token sind ewig gültig)? |     |     |
-| Können alle die Projekt-Übersicht einsehen, oder nur die bereits abgestimmt haben? |     |     |
-| Wie funktioniert die Verifikation von Ute? |     |     |
-| Wie funktioniert die Verifikation von Projekten? |     |     |
-| Wie läuft das mit Private Key des Projekts (Story 8.01)? |     |     |
+| What happens to the projects that did not win? Are they automatically reinstated in the next donation period? | | |
+| Can I only vote in the donation period in which I also donated? | | |
+| Do I have to have donated in a donation period in order to vote in that donation period? Or do I have the right to vote with a one-time donation in every donation period (regardless if I donated = tokens are valid forever)? | | |
+| Can everyone see the project overview, or only those who have already voted? | | |
+| How does the verification of Ute work? | | |
+| How does the verification of projects work? | | |
+| How does it work with Private Key of the project (Story 8.01)? |     |     |
 
-## Außerhalb des Projektumfangs
+## Out-of-projectscope
 * * *
 
-*   Bezahlung mit Kryptowährung in Small States siehe [Bezahlung mit Kryptowährung in Small States](https://htw-berlin-bui.atlassian.net/wiki/spaces/SEAL/pages/5931013)
+*   Payment with cryptocurrency in Small States cf. [Bezahlung mit Kryptowährung in Small States](https://htw-berlin-bui.atlassian.net/wiki/spaces/SEAL/pages/5931013)
     
 
-*   Definition Small States und Prozess der Einreichung von Projekten
+*   Definition Small States and process of submission of projects

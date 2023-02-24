@@ -12,60 +12,62 @@
 
 * * *
 
-# SeaLevelRaise Dokumentation
+# SeaLevelRaise documentation
 
+NOTE: This README is also available in an outdated [German version](translations/README.de.md), which is not being updated.
 
+HINWEIS: Diese README ist ebenfalls in einer veralteten [deutschen Version](translations/README.de.md) verfügbar, die nicht mehr aktualisiert wird.
 
-## Über das Projekt
+## About the project
 * * *
-Das Projekt ist Teil des Moduls _M3 Methoden und Werkzeuge in BUI-Projekten_ im WiSe 2022/2023 des Master-Studienganges BUI der HTW Berlin.
+The project is part of the module _M3 Methods and Tools in BUI Projects_ in WiSe 2022/2023 of the Master's program BUI at HTW Berlin.
 
-Sea Level Raise (SLR) ist eine Spendenplattform für Projekte in sogenannten Small States, Staaten mit einer kleiner Einwohnerzahl und einer kleinen Landesfläche, die besonders vom Klimawandel betroffen sind.
-Diese Staaten haben aufgrund ihrer geringen Bedeutung im globalen Landerranking bislang ein Problem, gehört zu werden.
+Sea Level Raise (SLR) is a donation platform for projects in so-called Small States, states with a small population and a small land area that are particularly affected by climate change.
+Due to their low importance in the global country ranking, these states have so far had a problem being heard.
 
-Durch das Web3-Projekt "Sea Level Raise" wird dieses Problem angegangen, das sind unsere drei Grundsätze:
+Through the Web3 project "Sea Level Raise" this problem is addressed, these are our three principles:
 
-* __Faire Partizipation:__ SLR möchte, dass die Stimmen der Small States Beachtung finden. Durch SLR können Small States die durch den Klimawandel existenzbedrohenden Folgen sichtbar machen und ihre eigenen Lösungsvorschläge präsentieren.
+* __Fair Participation:__ SLR wants the voices of Small States to be heard. Through SLR, small states can make visible the consequences threatening their existence due to climate change and present their own proposals for solutions.
 
-* __Faire Förderung:__ SLR möchte erreichen, dass auch kleinere Projekte gefördert werden können und so auch Projekte von Small States Beachtung finden. Des weiteren ist SLR als partizipativer Verteilungsmechanismus attraktiv für Spendengeldern aus verschiedenen Quellen, da bspw. Unternehmen Klima-Projekte fördern können, ohne dass Einzelpersonen Angst haben müssen, dass diese zu viel Entscheidungsgewalt innehaben.
+* __Fair funding:__ SLR wants to ensure that smaller projects can also be funded and that projects from Small States are also considered. Furthermore, SLR as a participatory distribution mechanism is attractive for donations from different sources, because e.g. companies can support climate projects without individuals having to fear that they have too much decision-making power.
 
-* __Faire Verteilung:__ Durch die Organisation von SLR als DAO, sollen faire Verteilungsmechanismen aufgesetzt werden, sodass jede und jeder Spender:in mitentscheiden kann, wie ihr/sein Geld verwendet wird.
+* __Fair distribution:__ By organizing SLR as a DAO, fair distribution mechanisms will be established so that each donor can have a say in how their money is used.
 
 
-## Über uns
+## About us
 * * *
-Wir sind das SeaLevelRaise-Projektteam und TeilnehmerInnen des Moduls _M3 Methoden und Werkzeuge in BUI-Projekten_ im WiSe 2022/2023. Der Auftrag zum Projekt wurde von Prof. Dr.-Ing. Katarina Adam (Katarina.Adam@HTW-Berlin.de) gegeben. Als Betreuer stand uns Prof. Dr. Frank Burghardt als Hochschullehrer des Moduls zur Verfügung.
+We are the SeaLevelRaise project team and participants of the module _M3 Methods and Tools in BUI Projects_ in WiSe 2022/2023. The assignment for the project was given by Prof. Dr.-Ing. Katarina Adam (Katarina.Adam@HTW-Berlin.de). As supervisor, Prof. Dr. Frank Burghardt was available to us as university lecturer of the module.
 
 
-__Das SeaLevelRaise-Projektteam:__
+__The SeaLevelRaise-Team:__
 
 ![Organigramm](/images/Organigramm.jpg "Organigramm")
 
 
 ## Repositories
 * * *
-| Repository                   | Beschreibung                                                                                 |
+| Repository                   | Description                                                                                 |
 | ---------------------------- | ------------------------------------------------------------------------------------------- |
-| [SLR](https://gitlab.rz.htw-berlin.de/m3bui/SLR)            | - __nuxt:__ "Frontend", Eine Webaplikation, mit dem Framework Vue und dem Metaframework nuxt entwickelt<br>- __truffle-project:__ "Backend", Smart Contracts, welche auf eine Etherium-Blockchain migriert werden können. Für das Ausführen der beiden Projektteile gibt es jeweils eine Anleitung im Unterordner.                         |
-| [SLR Documentation](https://gitlab.rz.htw-berlin.de/m3bui/SLR-documentation)                | Projektübersicht und allgemeine Dokumentation                        |
+| [SLR](https://gitlab.rz.htw-berlin.de/m3bui/SLR)            | - __nuxt:__ "Frontend", A web application, developed with the framework Vue and the metaframework nuxt<br>- __truffle-project:__ "Backend", Smart Contracts, which can be migrated to an Etherium blockchain. There are instructions for running each of the two parts of the project in the subfolder.                         |
+| [SLR Documentation](https://gitlab.rz.htw-berlin.de/m3bui/SLR-documentation)                | Project overview and general documentation                        |
 
 
-## Unsere Dokumentation
+## Our Documentation
 * * *
 
-### Anforderungen
+### Requirements
 
 - [User Journey](user-journey.md)
 
-### Technische Dokumentation
+### Technical Documentation
 
 - [Architektur](architecture.md)
-- [SmartContract Logik](contract-logic.md)
+- [SmartContract Logic](contract-logic.md)
 - [UX Design Guide](UX-design.md)
 - [Install Development](https://gitlab.rz.htw-berlin.de/m3bui/SLR/-/blob/main/README.md#projekt-set-up)
 
 
-## Lizenzierung
+## Licensing
 * * *
 
 Copyright (c) 2023 SeaLevelRaise-Projektteam
@@ -78,7 +80,7 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
 
 [Lizenzerklärung](SLRLizenz.pdf)
 
-## Projekt Status
+## Project Status
 * * *
 
 *If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.*
