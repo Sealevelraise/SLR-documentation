@@ -3,12 +3,12 @@
 </p>
 
 * * *
-*   [Über das Projekt](#über-das-projekt)
-*   [Über uns](#über-uns)
+*   [About the project](#about-the-project)
+*   [About us](#about-us)
 *   [Repositories](#repositories)
-*   [Unsere Dokumentation](#unsere-dokumentation)
-*   [Lizenzierung](#lizenzierung)
-*   [Projekt Status](#projekt-status)
+*   [Our documentation](#our-documentation)
+*   [Licensing](#licensing)
+*   [Project status](#project-status)
 
 * * *
 
