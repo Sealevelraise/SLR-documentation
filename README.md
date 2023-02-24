@@ -18,12 +18,12 @@
 
 ## Über das Projekt
 * * *
-Das Projekt ist Teil des Moduls _M3 Methoden und Werkzeuge in BUI-Projekten_ im WiSe 2022/2023 des Masters BUI.
+Das Projekt ist Teil des Moduls _M3 Methoden und Werkzeuge in BUI-Projekten_ im WiSe 2022/2023 des Master-Studienganges BUI der HTW Berlin.
 
-Sea Level Raise ist eine Spendenplattform für Projekte in sogenannten Small States, Staaten mit einer kleiner Einwohnerzahl und einer kleinen Landesfläche, die besonders vom Klimawandel betroffen sind.
+Sea Level Raise (SLR) ist eine Spendenplattform für Projekte in sogenannten Small States, Staaten mit einer kleiner Einwohnerzahl und einer kleinen Landesfläche, die besonders vom Klimawandel betroffen sind.
 Diese Staaten haben aufgrund ihrer geringen Bedeutung im globalen Landerranking bislang ein Problem, gehört zu werden.
 
-Durch Sea Level Raise wird dieses Problem angegangen, das sind unsere drei Grundsätze:
+Durch das Web3-Projekt "Sea Level Raise" wird dieses Problem angegangen, das sind unsere drei Grundsätze:
 
 * __Faire Partizipation:__ SLR möchte, dass die Stimmen der Small States Beachtung finden. Durch SLR können Small States die durch den Klimawandel existenzbedrohenden Folgen sichtbar machen und ihre eigenen Lösungsvorschläge präsentieren.
 
