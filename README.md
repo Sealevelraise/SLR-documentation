@@ -61,10 +61,10 @@ __The SeaLevelRaise-Team:__
 
 ### Technical Documentation
 
-- [Architektur](architecture.md)
-- [SmartContract Logic](contract-logic.md)
-- [UX Design Guide](UX-design.md)
-- [Install Development](https://gitlab.rz.htw-berlin.de/m3bui/SLR/-/blob/main/README.md#projekt-set-up)
+- [Architecture](architecture.md)
+- [Smart contract logic](contract-logic.md)
+- [UX design guide](UX-design.md)
+- [Install development](https://gitlab.rz.htw-berlin.de/m3bui/SLR/-/blob/main/README.md#projekt-set-up)
 
 
 ## Licensing
