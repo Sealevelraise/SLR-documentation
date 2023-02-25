@@ -1,4 +1,4 @@
-# Inhalt
+# Content
 
 *   [Contracts](#Contractlogic-Contracts)
     *   [Vote](#Contractlogic-Vote)
@@ -7,7 +7,8 @@
 *   [Methods used from the web3.js library for Ethereum](#Contractlogic-Methodsusedfromtheweb3.jslibraryforEthereum)
 
 * * *
-
+Back to [README](./README.md)
+* * *
 ## Contracts
 * * *
 

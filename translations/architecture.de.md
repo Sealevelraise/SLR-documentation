@@ -1,11 +1,11 @@
-# Content
+# Inhalt
 
 *   [Kontext](#kontext)
 *   [Container](#container)
 *   [Components](#components)
 
 * * *
-Back to [README](./README.md)
+Zurück zu [README](./translations/README.md)
 * * *
 ## Kontext
 * * *
